@@ -4,12 +4,22 @@
 如果你想，台式也可以用  
 
 ## CPU降温
-- 修改方法  
+- 修改方法1：限制最大频率  
   1. 进入仓库的[`bin`](../bin/)文件夹
   2. 选择下载合适频率的`set-cpu-max-****mhz.bat`
   3. 管理员运行`.bat`
 - 恢复修改  
   下载和管理员运行[`reset-cpu-max-mhz.bat`](../bin/reset-cpu-max-mhz.bat)
+
+- 修改方法2：限制可用核心数  
+  1. 进入仓库的[`bin`](../bin/)文件夹
+  2. 选择下载合适百分比的`set-cpu-activated-***core.bat`
+  3. 管理员运行`.bat`
+- 恢复修改  
+  下载和管理员运行[`reset-cpu-activated-core.bat`](../bin/reset-cpu-activated-core.bat)
+
+> [!NOTE]  
+> 方法1和方法2不冲突，可以一起组合  
 
 > [!NOTE]  
 > 每个人的机器的发热和散热能力都不同，按照你能接受的温度范围选择  
