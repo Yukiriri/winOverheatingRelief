@@ -8,14 +8,14 @@
   1. 进入仓库的[`bin`](../bin/)文件夹
   2. 选择下载合适频率的`set-cpu-max-****mhz.bat`
   3. 管理员运行`.bat`
-- 恢复修改  
+- 重置修改  
   下载和管理员运行[`reset-cpu-max-mhz.bat`](../bin/reset-cpu-max-mhz.bat)
 
 - 修改方法2：限制可用核心数  
   1. 进入仓库的[`bin`](../bin/)文件夹
   2. 选择下载合适百分比的`set-cpu-activated-***core.bat`
   3. 管理员运行`.bat`
-- 恢复修改  
+- 重置修改  
   下载和管理员运行[`reset-cpu-activated-core.bat`](../bin/reset-cpu-activated-core.bat)
 
 > [!NOTE]  
@@ -37,7 +37,7 @@
   1. 进入仓库的[`bin`](../bin/)文件夹
   2. 选择下载合适频率的`set-nvgpu-max-****mhz.bat`
   3. 管理员运行`.bat`
-- 恢复修改  
+- 重置修改  
   下载和管理员运行[`reset-nvgpu-max-mhz.bat`](../bin/reset-nvgpu-max-mhz.bat)
 
 > [!NOTE]  
